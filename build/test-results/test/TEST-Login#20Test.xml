@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-03T09:07:57" hostname="LAPTOP-M9MHM6IN" time="0.094">
+  <properties/>
+  <testcase name="Login Test" classname="Login Test" time="0.094"/>
+  <system-out><![CDATA[
+@1 @smoketest
+Scenario: Login Test              ?[90m# src/test/resources/features/Login.feature:3?[0m
+  ?[32mGiven ?[0m?[32muser is on the login page?[0m ?[90m# stepdefs.SD1.user_is_on_the_login_page()?[0m
+  ?[32mWhen ?[0m?[32menters credentials?[0m         ?[90m# stepdefs.SD1.enters_credentials()?[0m
+  ?[32mAnd ?[0m?[32mclicks login?[0m                ?[90m# stepdefs.SD2.clicks_login()?[0m
+  ?[32mThen ?[0m?[32mlogin successful?[0m           ?[90m# stepdefs.SD2.login_successful()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
