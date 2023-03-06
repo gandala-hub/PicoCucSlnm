@@ -33,7 +33,7 @@ public class LoginSteps {
     }
     @Then("click logout")
     public void click_logout() {
-     //   loginPage.logout();
+       loginPage.logout();
     }
 
 }
