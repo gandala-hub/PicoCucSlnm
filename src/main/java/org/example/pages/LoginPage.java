@@ -17,7 +17,8 @@ public class LoginPage {
     }
 
     public void navigate(){
-        driver.get("https://buggy.justtestit.org/");
+        //driver.get("https://buggy.justtestit.org/");
+        driver.get(System.getProperty("Url"));
     }
     public void entercredentialsAndLogin(String user, String pwd){
         driver.findElement(username).sendKeys(user);
@@ -29,10 +30,6 @@ public class LoginPage {
     }
 
     public void logout(){
-        try{
-            Thread.sleep(1000);
-        }catch (Exception e){}
-        //driver.findElement(buggyRatingLink).click();
         driver.findElement(logoutBtn).click();
     }
 
